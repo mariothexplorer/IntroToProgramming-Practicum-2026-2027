@@ -10,6 +10,6 @@ int main()
     int b = 0;
     std::cin>>b;
  
-    int calculate = (a > b)? a:b;
+    int calculate = (a < b)? a:b;
     std::cout<< calculate;
 }
