@@ -8,7 +8,7 @@ int main()
 
     switch(month)
     {
-         case 1:
+         case 1: case 3: case5: case 7: case 8: case 10: case 12:
           std::cout<<"31";
           break;
          case 2:
@@ -31,35 +31,8 @@ int main()
                     }
             }   
             break;
-          case 3:
+          case 4: case 6: case 9: case 11:
             std::cout<<"30";
-            break;
-          case 4:
-            std::cout<<"31";
-            break;
-          case 5:
-            std::cout<<"31";
-            break;
-          case 6:
-            std::cout<<"30";
-            break;
-          case 7:
-            std::cout<<"31";
-            break;
-          case 8:
-            std::cout<<"31";
-            break;
-          case 9:
-            std::cout<<"30";
-            break;
-          case 10:
-            std::cout<<"31";
-            break;
-          case 11:
-            std::cout<<"30";
-            break;
-          case 12:
-            std::cout<<"31";
             break;
         default: 
             std::cout<<"Invalid month!";
