@@ -16,9 +16,5 @@ int main()
         {
             std::cout<<i<<" ";
         }
-        else
-        {
-            continue;
-        }
     }    
 }
