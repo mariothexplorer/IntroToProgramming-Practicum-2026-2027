@@ -39,7 +39,7 @@ int main()
         case 5:
         if(b==0)
         {
-        std::cout<<"Devision by zero.";
+        std::cout<<"Division by zero.";
         }
         else
         {
