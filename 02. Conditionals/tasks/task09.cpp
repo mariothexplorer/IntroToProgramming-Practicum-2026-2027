@@ -2,7 +2,7 @@
  
 int main()
 {
-    unsigned a, b,c;
+    double a, b,c;
     std::cin>>a >>b >>c;
     if(a+b>c && a+c>b && b+c>a)
     {
