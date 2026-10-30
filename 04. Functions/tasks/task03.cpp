@@ -3,6 +3,7 @@
 bool OnCircle(int xa, int ya, int xb, int yb)
 {
     return xa*xa+ya*ya==xb*xb+yb*yb;
+//Другото бепе xa / ((xa*xa) + (ya*ya)) == ya / ((xb * xb) + (yb * yb));
 
 }
 int main() 
